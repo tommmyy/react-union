@@ -1,6 +1,31 @@
-# React Union - Basic boilerplate
+# React Union - Redux boilerplate
 
 This project can either be used as the example of react-union and react-union-scripts working together or as the base of your project.
+
+## Goals
+* To show how multiple instances of the app work over the same model within one view
+* To show how they communicate with other widget
+* To show how to use Redux using just one store
+
+## Resources
+
+### Application
+
+* [NPMs API](https://api-docs.npms.io/)
+* [NPM Trends](http://www.npmtrends.com/)
+
+### About Redux and reusability
+
+Opinions about both reusability of Redux components and how to implement it vary.
+See resources bellow to gain context.
+
+* [Reducer Composition with Effects in JavaScript](https://github.com/reactjs/redux/issues/1528)
+* [RFC: Reuse complex components implemented in React plus Redux](https://github.com/reactjs/react-redux/issues/278)
+* [Redux Subspace](https://github.com/ioof-holdings/redux-subspace)
+* [Multireducer](https://github.com/erikras/multireducer/)
+* [Reusing Reducer Logic](https://github.com/reactjs/redux/blob/master/docs/recipes/reducers/ReusingReducerLogic.md)
+* [Namespacing actions for Redux](https://kickstarter.engineering/namespacing-actions-for-redux-d9b55a88b1b1)
+* [Extensible duck](https://github.com/investtools/extensible-duck)
 
 ## Project structure
 
