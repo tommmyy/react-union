@@ -4,13 +4,13 @@ import loadContentWidget from '../../widgets/Content/content.widget';
 export default [
 	{
 		path: 'hero',
-		getComponent: done => {
+		getComponent(done) {
 			loadHeroWidget(mod => done(mod.default));
 		},
 	},
 	{
 		path: 'content',
-		getComponent: done => {
+		getComponent(done) {
 			loadContentWidget(mod => done(mod.default));
 		},
 	},

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" chart="width=device-width, initial-scale=1">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="/css/front.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <noscript>
+      JavaScript is disabled. App will not run correctly.
+    </noscript>
+
+    <div id="filter"></div>
+    <script data-union-widget="trends-filter" data-union-container="filter" type="application/json"></script>
+
+    <div id="chart-line"></div>
+    <script data-union-widget="trends-chart" data-union-container="chart-line" type="application/json">{"type": "line"}</script>
+
+    <div id="chart-bar"></div>
+    <script data-union-widget="trends-chart" data-union-container="chart-bar" type="application/json">{"type": "bar"}</script>
+  </body>
+</html>

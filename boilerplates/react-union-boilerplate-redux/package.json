@@ -18,7 +18,7 @@
     "redbox-react": "1.5.0",
     "redux": "^3.7.2",
     "redux-devtools-extension": "^2.13.2",
-    "redux-extensible-store": "^0.1.0",
+    "redux-extensible-store": "^0.1.1",
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
@@ -36,7 +36,7 @@
   },
   "scripts": {
     "build": "react-union-scripts build",
-    "start": "react-union-scripts start --app SampleApp",
+    "start": "react-union-scripts start --app NpmTrends",
     "test": "yarn lint && yarn test:js",
     "test:js": "react-union-scripts test",
     "lint": "yarn lint:eslint",
