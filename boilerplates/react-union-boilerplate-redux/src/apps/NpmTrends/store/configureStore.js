@@ -2,8 +2,9 @@ import thunk from 'redux-thunk';
 import { createExtensibleStore } from 'redux-extensible-store';
 
 import { name, version } from '../../../../package.json';
+import { api } from '../../../common/middleware/api';
 
-const middleware = [thunk];
+const middleware = [thunk, api];
 
 let composeEnhancers;
 

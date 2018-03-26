@@ -26,6 +26,7 @@ See resources bellow to gain context.
 * [Reusing Reducer Logic](https://github.com/reactjs/redux/blob/master/docs/recipes/reducers/ReusingReducerLogic.md)
 * [Namespacing actions for Redux](https://kickstarter.engineering/namespacing-actions-for-redux-d9b55a88b1b1)
 * [Extensible duck](https://github.com/investtools/extensible-duck)
+* [Redux-recompose](https://medium.com/wolox-driving-innovation/932e746b0198)
 
 ## Project structure
 

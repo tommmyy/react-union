@@ -1,12 +1,5 @@
-import { Component } from 'react';
-
-import withInjectedReducters from '../../../common/withInjectedReducters';
+import { withInjectedReducers } from '../../../common/reactReduxExtensibleStore';
 import reducers from '../reducers';
+import FilterForm from './FilterForm';
 
-class Root extends Component {
-	render() {
-		return 'I am filter.';
-	}
-}
-
-export default withInjectedReducters(reducers)(Root);
+export default withInjectedReducers(reducers)(FilterForm);

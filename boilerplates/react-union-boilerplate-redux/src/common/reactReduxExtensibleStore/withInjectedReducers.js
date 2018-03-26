@@ -3,14 +3,14 @@ import { connect } from 'react-redux';
 import { injectReducers, removeReducers } from 'redux-extensible-store';
 import PropTypes from 'prop-types';
 
-const withInjectedReducters = (reducers) => (NextComponent) => {
-	class WithInjectedReducters extends Component {
+const withInjectedReducers = (reducers) => (NextComponent) => {
+	class WithInjectedReducers extends Component {
 		static propTypes = {
 			injectReducers: PropTypes.func,
 			removeReducers: PropTypes.func,
 		};
 
-		componentDidMount() {
+		componentWillMount() {
 			this.props.injectReducers(reducers);
 		}
 
@@ -23,7 +23,7 @@ const withInjectedReducters = (reducers) => (NextComponent) => {
 		}
 	}
 
-	return connect(() => ({}), { injectReducers, removeReducers })(WithInjectedReducters);
+	return connect(() => ({}), { injectReducers, removeReducers })(WithInjectedReducers);
 };
 
-export default withInjectedReducters;
+export default withInjectedReducers;
