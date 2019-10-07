@@ -4,9 +4,9 @@
 	"description": "Polyfills package for react-union.",
 	"main": "src/stable.js",
   "files": [
-    "src/ie9.js",
-    "src/ie11.js",
-    "src/stable.js"
+    "ie9.js",
+    "ie11.js",
+    "stable.js"
   ],
 	"repository": "https://github.com/lundegaard/react-union",
 	"contributors": [
